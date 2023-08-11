@@ -13,7 +13,7 @@
     - [Your_order_please]
 
 - ### Java:
-    -[Sum_of_Digits_Digital_Root]
+    - [Sum_of_Digits_Digital_Root]
 
 
 

@@ -17,6 +17,15 @@
     - [Reversed_sequence]
     - [l1_Set_Alarm]
     - [Convert_a_Boolean_To_String]
+    - [Sentence_Smash]
+    - [Even_or_Odd]
+    - [bbreviate_a_Two_Word_Name]
+    - [Removing_Elements]
+    - [Beginner_Series_1_School_Paperwork]
+    - [Function_1_hello_world]
+
+- ### PHP:
+    - [Remove_String_Spaces]
 
 
 
@@ -34,3 +43,10 @@
 [Reversed_sequence]:</Java/reversed_sequence.md>
 [l1_Set_Alarm]:</Java/l1_Set Alarm.md>
 [Convert_a_Boolean_To_String]:</Java/Convert a Boolean to a String.md>
+[Sentence_Smash]:</Java/Sentence_Smash.md>
+[Even_or_Odd]:</Java/Even_or_Odd.md>
+[bbreviate_a_Two_Word_Name]:</Java/bbreviate_a_Two_Word_Name.md>
+[Removing_Elements]:</Java/Removing_Elements.md>
+[Beginner_Series_1_School_Paperwork]:</Java/Beginner_Series_#1_School_Paperwork.md>
+[Function_1_hello_world]:</Java/Function_1_hello_world.md>
+[Remove_String_Spaces]:</php/Remove_String_Spaces.md>

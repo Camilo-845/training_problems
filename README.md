@@ -13,10 +13,13 @@
     - [Your_order_please]
 
 - ### Java:
+    -[Sum_of_Digits_Digital_Root]
 
 
 
 
+
+[Sum_of_Digits_Digital_Root]: </Java/Sum_of_Digits_Digital_Root.md>
 [array_diff]: </Python/array_diff.ipynb>
 [Give_me_a_diamond]: </Python/Give me a diamond.ipynb>
 [Is_a_number_prime]: </Python/Is_a_number_prime.ipynb>

@@ -16,6 +16,7 @@
     - [Sum_of_Digits_Digital_Root]
     - [Reversed_sequence]
     - [l1_Set_Alarm]
+    - [Convert_a_Boolean_To_String]
 
 
 
@@ -32,3 +33,4 @@
 [Your_order_please]: </Python/Your order, please.ipynb>
 [Reversed_sequence]:</Java/reversed_sequence.md>
 [l1_Set_Alarm]:</Java/l1_Set Alarm.md>
+[Convert_a_Boolean_To_String]:</Java/Convert a Boolean to a String.md>

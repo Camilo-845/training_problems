@@ -14,6 +14,8 @@
 
 - ### Java:
     - [Sum_of_Digits_Digital_Root]
+    - [Reversed_sequence]
+    - [l1_Set_Alarm]
 
 
 
@@ -28,3 +30,5 @@
 [Title_Case]: </Python/Title Case.ipynb>
 [Which_are_in]: </Python/Which are in.ipynb>
 [Your_order_please]: </Python/Your order, please.ipynb>
+[Reversed_sequence]:</Java/reversed_sequence.md>
+[l1_Set_Alarm]:</Java/l1_Set Alarm.md>

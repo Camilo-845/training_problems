@@ -23,6 +23,7 @@
     - [Removing_Elements]
     - [Beginner_Series_1_School_Paperwork]
     - [Function_1_hello_world]
+    - [Are_You_Playing_Banjo?]
 
 - ### PHP:
     - [Remove_String_Spaces]
@@ -50,3 +51,4 @@
 [Beginner_Series_1_School_Paperwork]:</Java/Beginner_Series_#1_School_Paperwork.md>
 [Function_1_hello_world]:</Java/Function_1_hello_world.md>
 [Remove_String_Spaces]:</php/Remove_String_Spaces.md>
+[Are_You_Playing_Banjo?]:</Java/Are_You_Playing_Banjo.md>

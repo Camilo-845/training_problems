@@ -1,5 +1,5 @@
 # TRAINING PROBLEMS
-###  *problemas de logica de programación resueltos en CODEWARS u otras paginas de practica*
+###  *problemas de logica de programación resueltos*
 
 ## **Indice**
 - ### Python:
@@ -13,6 +13,7 @@
     - [Your_order_please]
 
 - ### Java:
+    - [Arbol_de_misma_estructura]
     - [Monticulo_por_minimos]
     - [Sum_of_Digits_Digital_Root]
     - [Reversed_sequence]
@@ -54,3 +55,4 @@
 [Remove_String_Spaces]:</php/Remove_String_Spaces.md>
 [Are_You_Playing_Banjo?]:</Java/Are_You_Playing_Banjo.md>
 [Monticulo_por_minimos]:<Java/Monticulo_por_minimos.md>
+[Arbol_de_misma_estructura]:<Java/Arbol_de_misma_estructura.md>

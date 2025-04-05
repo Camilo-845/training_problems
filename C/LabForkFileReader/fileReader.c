@@ -32,39 +32,46 @@ int readNumbers(char *filename, int **vec) {
 }
 
 // Lee el resultado del archivo out.txt y lo suma
+
 unsigned long readAll() {
   unsigned long number, suma = 0;
-  int c;
-  FILE *infile;
-  infile = fopen("out.txt", "r");
+  FILE *infile = fopen("out.txt", "r");
   if (!infile) {
-    error("error fopen");
+    perror("Error al abrir el archivo");
+    return 0;
   }
-  for (c = 0; c < 2; ++c) {
-    fscanf(infile, "%lu", &number);
-    printf("nuber :%lu \n", number);
+
+  // Leer hasta que no haya más números válidos
+  while (fscanf(infile, "%lu", &number) == 1) {
     suma += number;
   }
+
   fclose(infile);
   return suma;
 }
 
 int main() {
-  int totalNumeros, delta;
-  int limites[2][2];
-  // Leer en un vector los datos del archivo de entrad input.txt
+  int totalNumeros, delta, numeroProcesos;
+  printf("input the n processes: ");
+  scanf("%d", &numeroProcesos);
+  int limites[numeroProcesos][2];
+  // Leer en un vector los datos del archivo de entrada input.txt
   int *vectorNumeros;
   totalNumeros = readNumbers("test3.txt", &vectorNumeros);
   // Estimar los indices (principio y fin) sobre el cual va a trabajar cada
-  delta = totalNumeros / 2;
-  limites[0][0] = 0;
-  limites[0][1] = delta;
-  limites[1][0] = limites[0][1];
-  limites[1][1] = totalNumeros;
+  delta = totalNumeros / numeroProcesos;
+  for (int i = 0; i < numeroProcesos; i++) {
+    limites[i][0] = i * delta;
+    if (i + 1 == numeroProcesos) {
+      limites[i][1] = totalNumeros;
+    } else {
+      limites[i][1] = limites[i][0] + delta;
+    }
+  }
   // proceso hijo Crear los pricesos hijos Esperar la terminacińo de los hijos
   pid_t pid;
 
-  for (int i = 0; i < 2; i++) {
+  for (int i = 0; i < numeroProcesos; i++) {
     pid = fork();
     if (pid == 0) {
       // Procesos hijos
